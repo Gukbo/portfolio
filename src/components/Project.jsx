@@ -1,7 +1,11 @@
+import "./styles.css";
+
 const Project = () => {
   return (
     <>
-      <p>Project</p>
+      <div className="ProjectContainer">
+        <p>Project</p>
+      </div>
     </>
   );
 };

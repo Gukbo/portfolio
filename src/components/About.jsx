@@ -1,7 +1,11 @@
+import "./styles.css";
+
 const About = () => {
   return (
     <>
-      <p>About me</p>
+      <div className="AboutContainer">
+        <p>About me</p>
+      </div>
     </>
   );
 };
