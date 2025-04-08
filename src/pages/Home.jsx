@@ -7,13 +7,17 @@ const Home = () => {
 
   return (
     <>
-      <Nav />
-      <div className="HomeContainer">
-        <p>Home</p>
-        <div className="btnContainer">
-          <button onClick={() => navigate("/project")} className="enter-btn">
-            project로 이동
-          </button>
+      <div className="wrapper">
+        <Nav />
+        <div className="HomeWrapper">
+          <div className="HomeContainer">
+            <p>Home</p>
+          </div>
+          <div className="btnContainer">
+            <button onClick={() => navigate("/project")} className="enter-btn">
+              Read more
+            </button>
+          </div>
         </div>
       </div>
     </>
