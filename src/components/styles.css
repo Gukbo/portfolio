@@ -18,7 +18,7 @@ body {
 
 .HomeWrapper {
   width: 100vw;
-  height: 80vh;
+  height: 94vh;
 }
 
 .NavContainer {
@@ -57,13 +57,13 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 40vh;
+  height: 70vh;
 }
 
 .btnContainer {
   display: flex;
   width: 100vw;
-  height: 20vh;
+  height: 10vh;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -88,12 +88,40 @@ body {
 .btnContainer .enter-btn {
   width: auto;
   height: 40px;
-  border: none;
-  background-color: var(--main-navy);
-  color: var(--white);
+  border-color: var(--main-navy);
+  background-color: var(--main-gray);
+  color: var(--main-navy);
+  border-radius: 12px;
   font-size: 18px;
 }
 
 .btnContainer .enter-btn:hover {
-  background-color: var(--bold-navy);
+  transition: 0.5s;
+  background-color: var(--main-navy);
+  color: var(--main-gray);
+}
+
+.FooterContainer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spanContainer {
+  width: inherit;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logoContainer {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
