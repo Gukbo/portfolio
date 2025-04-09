@@ -1,21 +1,25 @@
-import "../components/styles.css";
+import styles from "./Home.module.css";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import { useNavigate } from "react-router-dom";
+import Homepage from "../components/Homepage";
 
 const Home = () => {
   const navigate = useNavigate();
 
   return (
     <>
-      <div className="wrapper">
+      <div className={styles.wrapper}>
         <Nav />
-        <div className="HomeWrapper">
-          <div className="HomeContainer">
-            <p>Home</p>
+        <div className={styles.homeWrapper}>
+          <div className={styles.homeContainer}>
+            <Homepage />
           </div>
-          <div className="btnContainer">
-            <button onClick={() => navigate("/project")} className="enter-btn">
+          <div className={styles.btnContainer}>
+            <button
+              onClick={() => navigate("/project")}
+              className={styles.enterbtn}
+            >
               Read more
             </button>
           </div>

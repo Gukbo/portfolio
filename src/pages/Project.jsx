@@ -1,12 +1,12 @@
-import "../components/styles.css";
+import styles from "./Home.module.css";
 import Nav from "../components/nav";
 
 const Project = () => {
   return (
     <>
-      <div className="wrapper">
+      <div className={styles.wrapper}>
         <Nav />
-        <div className="ProjectContainer">
+        <div className={styles.homeContainer}>
           <p>Project</p>
         </div>
       </div>

@@ -1,13 +1,13 @@
-import "./styles.css";
+import styles from "./Nav.module.css";
 import { useNavigate } from "react-router-dom";
 
 const Nav = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="NavContainer">
-        <button className="Menu-btn">☰</button>
-        <button onClick={() => navigate("/")} className="Home-btn">
+      <div className={styles.NavContainer}>
+        <button className={styles.Menubtn}>☰</button>
+        <button onClick={() => navigate("/")} className={styles.Homebtn}>
           LHE PORTFOLIO
         </button>
       </div>
