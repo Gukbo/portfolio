@@ -17,11 +17,11 @@
 
 .imgContainer,
 .profileContainer {
-  margin: 25px;
+  margin: 24px;
 }
 
 .profileContainer p {
   color: var(--main-navy);
   font-family: "NanumSquare", sans-serif;
-  font-size: 24px;
+  font-size: 36px;
 }

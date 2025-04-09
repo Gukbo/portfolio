@@ -13,9 +13,11 @@ const Homepage = () => {
         />
       </div>
       <div className={styles.profileContainer}>
-        <p>안녕하세요</p>
-        <p>배움과 도전을 즐기는 이한음입니다.</p>
-        <p> #front-end #web developer</p>
+        <p>
+          안녕하세요 <br />
+          배움과 도전을 즐기는 <b>이한음</b> 입니다.
+        </p>
+        <p> #front-end #web-developer</p>
       </div>
     </>
   );
