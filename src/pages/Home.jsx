@@ -1,8 +1,9 @@
 import styles from "./Home.module.css";
 import Nav from "../components/nav";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 import Homepage from "../components/Homepage";
+import Details from "./Details";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -17,7 +18,7 @@ const Home = () => {
           </div>
           <div className={styles.btnContainer}>
             <button
-              onClick={() => navigate("/project")}
+              onClick={() => navigate("/details")}
               className={styles.enterbtn}
             >
               Read more

@@ -1,6 +1,6 @@
 import "./styles.css";
 
-const About = () => {
+const AboutPage = () => {
   return (
     <>
       <div className="AboutContainer">
@@ -10,4 +10,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPage;
