@@ -8,7 +8,7 @@
 
 .NavContainer {
   display: flex;
-  width: 100%;
+  width: 90vw;
   height: 6vh;
   justify-content: start;
   align-items: center;
@@ -20,7 +20,7 @@
   margin: 10px;
   border: none;
   background-color: white;
-  color: var(--main-navy);
+  color: var(--bold-navy);
   background-color: var(--main-gray);
   font-size: 42px;
 }
@@ -38,7 +38,7 @@
   height: 40px;
   border: none;
   background-color: white;
-  color: var(--main-navy);
+  color: var(--bold-navy);
   background-color: var(--main-gray);
   font-size: 42px;
   margin-top: 16px;

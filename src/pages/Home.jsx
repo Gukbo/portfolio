@@ -1,9 +1,8 @@
 import styles from "./Home.module.css";
-import Nav from "../components/nav";
-import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 import Homepage from "../components/Homepage";
-import Details from "./Details";
+import Nav from "../components/Nav";
+import Foot from "../components/Foot";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -18,13 +17,13 @@ const Home = () => {
           </div>
           <div className={styles.btnContainer}>
             <button
-              onClick={() => navigate("/details")}
+              onClick={() => navigate("/about")}
               className={styles.enterbtn}
             >
               Read more
             </button>
           </div>
-          <Footer />
+          <Foot />
         </div>
       </div>
     </>

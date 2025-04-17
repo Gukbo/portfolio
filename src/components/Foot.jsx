@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 import { IoLogoGithub } from "react-icons/io";
 import { SiVelog } from "react-icons/si";
 
-const Footer = () => {
+const Foot = () => {
   return (
     <>
       <div className={styles.footerContainer}>
@@ -24,4 +24,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Foot;

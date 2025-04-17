@@ -25,3 +25,7 @@
   font-family: "NanumSquare", sans-serif;
   font-size: 36px;
 }
+
+.profileContainer p b {
+  color: var(--bold-navy);
+}
