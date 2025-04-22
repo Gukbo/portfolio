@@ -11,12 +11,39 @@
 .skillsWrapper {
   font-family: "NanumSquare", sans-serif;
   display: flex;
-  width: 90vw;
+  width: 80vw;
   flex-direction: column;
   margin: 1vw;
+  margin-top: 8vh;
+  border: var(--bold-navy) solid 1px;
+  border-radius: 12px;
+  align-content: space-between;
 }
 
 .skillsContainer {
-  width: 90vw;
+  margin: 2vw;
+  display: flex;
+  width: fit-content;
+}
+
+.subWrapper {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.skillsWrapper h2 {
   margin: 3vw;
+  align-self: flex-start;
+}
+
+.skillContainer {
+  margin: 1vw;
+  display: flex;
+}
+
+.skillContainer:hover {
+  transition: 0.5s;
+  scale: 1.1;
 }

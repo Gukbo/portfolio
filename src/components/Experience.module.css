@@ -11,24 +11,32 @@
 .experienceWrapper {
   font-family: "NanumSquare", sans-serif;
   display: flex;
-  width: 90vw;
+  width: 80vw;
   flex-direction: column;
   margin: 1vw;
   margin-top: 8vh;
+  border: var(--bold-navy) solid 1px;
+  border-radius: 12px;
 }
 
 .experienceContainer {
-  width: 90vw;
+  width: 40vw;
   margin: 3vw;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceWrapper h2 {
+  margin: 3vw;
+}
+
+.subWrapper {
+  margin: 3vw;
+  width: 70vw;
+  border-radius: 12px;
 }
 
 .subContainer {
-  margin: 3vw;
-  width: 70vw;
-  height: 12vh;
-  border: #0e1944 solid 1px;
-  border-radius: 12px;
 }
 
 .whiteP {
