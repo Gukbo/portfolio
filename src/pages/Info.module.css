@@ -1,10 +1,8 @@
 :root {
-  --bold-navy: #0e1944;
-  --main-navy: #3a487f;
+  --bold-navy: #faf9f6;
+  --main-navy: #3071f2;
   --sub-navy: #838eb9;
-  --white: #f5f5f5;
-  --main-gray: #a9a9a9;
-  --sub-gray: #878787;
+  --main-gray: #262627;
 }
 
 body {
@@ -12,12 +10,12 @@ body {
   overflow-x: hidden;
 }
 
-.aboutWrapper {
+.infoWrapper {
   width: 100vw;
   height: 100vh;
 }
 
-.aboutContainer {
+.infoContainer {
   width: 100%;
   display: flex;
   justify-content: center;

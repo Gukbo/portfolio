@@ -17,7 +17,7 @@ const Home = () => {
           </div>
           <div className={styles.btnContainer}>
             <button
-              onClick={() => navigate("/about")}
+              onClick={() => navigate("/info")}
               className={styles.enterbtn}
             >
               Read more

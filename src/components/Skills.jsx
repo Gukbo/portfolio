@@ -1,5 +1,4 @@
 import styles from "./Skills.module.css";
-import { useState } from "react";
 import htmlIcon from "../assets/html_icon.png";
 import cssIcon from "../assets/css_icon.png";
 import jsIcon from "../assets/js_icon.png";
@@ -11,7 +10,7 @@ const Skills = () => {
   return (
     <>
       <div className={styles.skillsWrapper}>
-        <h2>Skills</h2>
+        <h2>-- Skills --</h2>
         <div className={styles.skillsContainer}>
           <div className={styles.subWrapper}>
             <div className={styles.skillContainer}>

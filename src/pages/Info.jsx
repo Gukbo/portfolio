@@ -1,17 +1,21 @@
-import styles from "./About.module.css";
+import styles from "./Info.module.css";
+import About from "../components/About";
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
+import Project from "../components/Project";
 import Nav from "../components/Nav";
 import Foot from "../components/Foot";
 
-const About = () => {
+const Info = () => {
   return (
     <>
-      <div className={styles.aboutWrapper}>
+      <div className={styles.infoWrapper}>
         <Nav />
-        <div className={styles.aboutContainer}>
+        <div className={styles.infoContainer}>
+          <About />
           <Experience />
           <Skills />
+          <Project />
         </div>
         <Foot />
       </div>
@@ -19,4 +23,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Info;
