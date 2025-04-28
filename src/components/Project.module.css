@@ -11,9 +11,9 @@
   display: flex;
   width: 80vw;
   flex-direction: column;
-  margin: 1vw;
   margin-top: 8vh;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .projectContainer {
@@ -30,7 +30,6 @@
 }
 
 .subWrapper {
-  margin: 3vw;
-  width: 70vw;
+  background-color: var(--main-blue);
   border-radius: 12px;
 }

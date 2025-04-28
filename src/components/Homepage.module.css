@@ -13,13 +13,17 @@
   background-color: var(--main-black);
 }
 
+.ProfileImg:hover {
+  transform: translateY(-2vh);
+  transition: 0.4s;
+}
+
 .imgContainer,
 .profileContainer {
   margin-top: 4vw;
   margin-left: 4vw;
   margin-right: 4vw;
   margin-bottom: 2vw;
-
   word-break: keep-all;
 }
 
