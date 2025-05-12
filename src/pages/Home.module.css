@@ -44,14 +44,16 @@ body {
   color: var(--white);
   border-radius: 12px;
   font-size: 18px;
+  border: 0;
 }
 
 .btnContainer .enterbtn:hover {
-  transition: 0.5s;
+  transition: 0.6s;
   background-color: var(--white);
   border-color: var(--main-black);
   color: var(--main-blue);
   cursor: pointer;
+  border: solid 2px var(--main-blue);
 }
 
 .aboutWrapper {

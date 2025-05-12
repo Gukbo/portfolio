@@ -5,12 +5,14 @@ import Skills from "../components/Skills";
 import Project from "../components/Project";
 import Nav from "../components/Nav";
 import Foot from "../components/Foot";
+import Sidebar from "../components/Sidebar";
 
 const Info = () => {
   return (
     <>
       <div className={styles.infoWrapper}>
         <Nav />
+        <Sidebar />
         <div className={styles.infoContainer}>
           <About />
           <Experience />
