@@ -6,7 +6,6 @@ const Nav = () => {
   return (
     <>
       <div className={styles.NavContainer}>
-        <button className={styles.Menubtn}>☰</button>
         <button onClick={() => navigate("/")} className={styles.Homebtn}>
           LHE PORTFOLIO
         </button>

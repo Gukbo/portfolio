@@ -4,8 +4,8 @@ import ProjectCard from "./projectCard";
 const Project = () => {
   return (
     <>
-      <div className={styles.projectWrapper}>
-        <h2>-- Projects-- </h2>
+      <div id="Projects" className={styles.projectWrapper}>
+        <h2>-- Projects -- </h2>
         <ProjectCard />
       </div>
     </>

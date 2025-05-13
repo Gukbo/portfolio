@@ -7,21 +7,26 @@
 }
 
 .sideWrapper {
-  width: 300px;
-  height: 80vh;
-  background-color: var(--main-blue);
-  position: absolute;
+  margin-top: 30vh;
+  height: 50vh;
+  position: fixed;
 }
 
-a {
-  text-decoration: none;
-  color: var(--white);
+.sideContainer ul {
+  margin-bottom: 4vh;
 }
 
-a:hover {
-  font-weight: 900;
-}
-
-.sideContainer .ul {
+.sideContainer ul a {
   font-family: "NanumSquare", sans-serif;
+  text-decoration: none;
+  color: var(--main-blue);
+  padding: 12px;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
+.sideContainer ul a:hover {
+  font-weight: 900;
+  background-color: var(--main-blue);
+  color: var(--white);
 }

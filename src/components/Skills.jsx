@@ -9,7 +9,7 @@ import nextjsIcon from "../assets/nextjs_icon.png";
 const Skills = () => {
   return (
     <>
-      <div className={styles.skillsWrapper}>
+      <div id="Skills" className={styles.skillsWrapper}>
         <h2>-- Skills --</h2>
         <div className={styles.skillsContainer}>
           <div className={styles.subWrapper}>

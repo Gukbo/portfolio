@@ -3,8 +3,8 @@ import styles from "./Experience.module.css";
 const Experience = () => {
   return (
     <>
-      <div className={styles.experienceWrapper}>
-        <h2>-- Experience --</h2>
+      <div id="Exp" className={styles.experienceWrapper}>
+        <h2>-- Experiences --</h2>
         <div className={styles.experienceContainer}>
           <div className={styles.subWrapper}>
             <div className={styles.subContainer}>

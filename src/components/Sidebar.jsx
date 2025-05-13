@@ -1,29 +1,29 @@
-import { useState } from "react";
 import styles from "./Sidebar.module.css";
-// import { useNavigate } from "react-router-dom";
-import Experience from "./Experience";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <>
       <div className={styles.sideWrapper}>
         <div className={styles.sideContainer}>
           <ul>
-            <a href="/">HOME</a>
+            <a onClick={() => navigate("/")}>HOME</a>
           </ul>
           <ul>
-            <a href="/info">About</a>
+            <a onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+              About
+            </a>
           </ul>
           <ul>
-            <a href="/info">Experience</a>
+            <a href="#Exp">Experiences</a>
           </ul>
           <ul>
-            <a href="/info">Skills</a>
+            <a href="#Skills">Skills</a>
           </ul>
           <ul>
-            <a href="/info">Projects</a>
+            <a href="#Projects">Projects</a>
           </ul>
         </div>
       </div>

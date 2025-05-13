@@ -24,6 +24,7 @@
 }
 
 .projectWrapper h2 {
+  margin-right: 8vw;
   font-weight: 900;
   font-size: 28px;
   color: var(--main-black);

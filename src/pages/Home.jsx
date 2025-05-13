@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import Homepage from "../components/Homepage";
 import Nav from "../components/Nav";
 import Foot from "../components/Foot";
-import Sidebar from "../components/Sidebar";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -12,7 +11,6 @@ const Home = () => {
     <>
       <div className={styles.wrapper}>
         <Nav />
-        <Sidebar />
         <div className={styles.homeWrapper}>
           <div className={styles.homeContainer}>
             <Homepage />
