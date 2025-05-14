@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <>
       <div id="Projects" className={styles.projectWrapper}>
-        <h2>-- Projects -- </h2>
+        <h2>Projects</h2>
         <ProjectCard />
       </div>
     </>

@@ -4,7 +4,7 @@ const Project = () => {
   return (
     <>
       <div className={styles.aboutWrapper}>
-        <h2>-- About me --</h2>
+        <h2>About me</h2>
         <div className={styles.aboutContainer}>
           <div className={styles.subWrapper}>
             <div className={styles.subContainer}>
@@ -14,7 +14,7 @@ const Project = () => {
                 웹페이지를 만드는 과제를 하며 웹 개발에 흥미를 느끼게
                 되었습니다.
                 <br />
-                내가 사용한다면 어떤 점이 불편할까? 에 대해서 늘 생각하며 사용자
+                내가 사용한다면 어떤 점이 불편할까? 에 대해 늘 생각하며 사용자
                 친화적 웹 페이지를 구현하기 위해 노력할 것 입니다.
               </p>
             </div>

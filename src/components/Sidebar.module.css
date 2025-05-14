@@ -12,6 +12,9 @@
   position: fixed;
 }
 
+.sideContainer {
+}
+
 .sideContainer ul {
   margin-bottom: 4vh;
 }
@@ -29,4 +32,5 @@
   font-weight: 900;
   background-color: var(--main-blue);
   color: var(--white);
+  cursor: pointer;
 }

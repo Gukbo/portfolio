@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <>
       <div id="Exp" className={styles.experienceWrapper}>
-        <h2>-- Experiences --</h2>
+        <h2>Experiences</h2>
         <div className={styles.experienceContainer}>
           <div className={styles.subWrapper}>
             <div className={styles.subContainer}>
