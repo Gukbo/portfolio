@@ -5,7 +5,7 @@ import Info from "./pages/Info";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={import.meta.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/info" element={<Info />} />
