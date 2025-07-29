@@ -5,7 +5,7 @@ import Info from "./pages/Info";
 function App() {
   return (
     <>
-      <Router basename={import.meta.env.PUBLIC_URL}>
+      <Router basename={"https://gukbo.github.io/portfolio/"}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/info" element={<Info />} />
